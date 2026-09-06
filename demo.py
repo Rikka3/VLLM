@@ -53,6 +53,3 @@ print(f"A: {ask(q_ids, states, kv, pos)}")
 # --- check the state is actually clean ---
 clean = all(s.abs().max() < 1e-4 for s in states if s is not None)
 print(f"\nState returned to zero: {clean}")
-
-
-That's 3 of 6 done (README, results, demo). Remaining: requirements.txt, LICENSE, .gitignore — all tiny, I can give all three in one message. Then the vsa_lm folder from the earlier session, then upload steps. Continue?
