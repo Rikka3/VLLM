@@ -37,3 +37,5 @@ Python 3.10+, CUDA GPU. `pip install -r requirements.txt`
 - Trains about 25% slower at short context
 - Only tested up to 512 token context
 - The model itself is small (100M params, ~500M tokens of training data — a fraction of what production models see)
+
+Model Huggingface : https://huggingface.co/rikkathree/vsa-lm
