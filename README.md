@@ -1,6 +1,8 @@
 # VLLM
 
-Trained a 100M parameter language model where most of the attention layers are replaced with a fixed-size memory instead of the usual growing cache. It scores about the same as a normal transformer of the same size, but uses way less memory when running, and can write and erase documents from its memory at will without retraining from s
+Trained a 100M parameter language model where most of the attention layers are replaced with a fixed-size memory instead of the usual growing cache. It scores about the same as a normal transformer of the same size, but uses way less memory when running, and can write and erase documents from its memory at will without retraining from scratch.
+
+Feedback welcome. I'm a student, this is a side project, and I'd genuinely like to know if I got any of the math wrong.
 
 ## What it does
 
